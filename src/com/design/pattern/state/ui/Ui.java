@@ -36,7 +36,7 @@ public class Ui {
         JButton prev = new JButton("Prev");
         prev.addActionListener(e -> textField.setText(player.getState().onPrevious()));
         frame.setVisible(true);
-        frame.setSize(300, 100);
+        frame.setSize(400, 200);
         buttons.add(play);
         buttons.add(stop);
         buttons.add(next);

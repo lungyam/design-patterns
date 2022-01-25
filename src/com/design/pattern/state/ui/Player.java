@@ -17,8 +17,8 @@ public class Player {
 
     public Player() {
         this.state = new ReadyState(this);
-        setPlaying(true);
-        for (int i = 1; i <= 12; i++) {
+        this.setPlaying(true);
+        for (int i = 1; i <=  12; i++) {
             playlist.add("Track " + i);
         }
     }
